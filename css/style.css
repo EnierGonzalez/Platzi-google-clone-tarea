@@ -1,0 +1,250 @@
+:root{
+    --backgroud-color:#FFFFFF;
+    --backgroud-color-footer: #F2F2F2;
+    --backgroud-color-button: #F5F5F5;
+    }
+
+
+
+.header-1{
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.gmail{
+    font-size: 13px;
+    font-family: Arial, Helvetica;   
+}
+
+.gmail a{
+    text-decoration: none;
+    color: rgba(0, 0,0,0.87);
+    margin: 0;
+    padding: 0;
+}
+
+.gmail a:hover{
+    opacity: .80;
+    text-decoration: underline;
+}
+.gfotos{
+    font-size: 13px;
+    font-family: Arial, Helvetica;
+    margin: 0;
+    padding:0;
+    padding-left: 15px;
+}
+
+.gfotos a{
+    text-decoration: none;
+    color: rgba(0, 0,0,0.87);
+}
+
+.gfotos a:hover{
+    opacity: .80;
+    text-decoration: underline;
+}
+.gapps-img-apps{
+    width: 20px;
+    height: 20px;
+    opacity: .55;
+    margin: 0;
+    padding: 0;
+}
+
+.gapps-img-apps:hover{
+    opacity: 1;
+}
+
+.gprofile{
+    padding-left: 15px;  
+}
+
+.gapps-img-perfil{
+    width: 32px;
+    height: 32px;
+    border-radius: 30px;
+    margin: 0;
+}
+ 
+
+/*Alineacion del nav*/
+.nav{
+    display: flex;
+    width: 196.047px;
+    height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.google-nav-text{
+    display: flex;
+    padding-right: 15px;
+    align-items: center;
+}
+
+.google-nav-img{
+    display: inline-flex;
+    align-items: center;
+}
+/*Fin de la alineacion del nav**/
+
+
+/**Main*/
+
+.google-logo-img{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.google-logo{
+    height: 233px;
+    margin-top: 89px;
+    display: flex;
+    
+}
+/**Form*/
+.google-form{
+    display: flex;
+    font-family: Arial, Helvetica;
+    justify-content: center;
+
+}
+
+.goole-buttons{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.google-search-button{
+    width: 155.078px;
+    height: 40px;
+    margin-right: 15px;
+    background-color: var(--backgroud-color-button);
+    
+}
+
+.google-search-button:hover{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border: 1px solid #c6c6c6;
+}
+
+.google-feel-luck{
+    width: 133.859;
+    height: 40px;
+    background-color: var(--backgroud-color-button);
+}
+
+.google-feel-luck:hover{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border: 1px solid #c6c6c6;
+}
+
+.google-search-button,
+ .google-feel-luck{
+
+    background-color: var(--backgroud-color-button)  ;
+    border-radius: 4px;
+    border: 1px solid #F2F2F2;
+    font-size: 14px;
+    color: #5F6368;
+    padding: 0, 16px;
+    margin: 11px, 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: Arial, Helvetica;
+   
+}
+
+.google-input{
+    width: 582px;
+    height: 44px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    background-color:  var(--backgroud-color);
+    display: flex;
+    margin-top: 10px;
+    
+}
+/*En Form*/
+.google-ad{
+    font-size: 13px;
+    font-family: Arial, Helvetica;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.google-ad a{
+    text-decoration: none;
+    color: blue;
+}
+
+.google-ad a:hover{
+    text-decoration: underline;
+}
+
+.google-info{
+    font-size: 13px;
+    font-family: Arial, Helvetica;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.google-info a{
+    text-decoration: none;
+    color: blue ;
+}
+
+.google-info a:hover{
+    text-decoration: underline;
+}
+/*End Main*/
+
+
+/*Footer*/
+.google-footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--backgroud-color-footer);
+    height: 40px;
+    align-items: center;
+    margin-top: 170px;
+}
+
+.google-footer a{
+    text-decoration: none;
+    color:#5f6368;
+}
+
+.google-footer a:hover{
+    text-decoration: underline;
+}
+
+.left-footer{
+    font-family: Arial, Helvetica;
+    margin-left: 3px;
+    font-size: 14px;
+    font-family: Arial, Helvetica;
+    color: #5f6368;
+}
+
+.left-footer a{
+    padding-left: 27px;
+}
+
+.right-footer{
+    font-family: Arial, Helvetica;
+    margin-right: 30px;
+    font-size: 14px;
+    font-family: Arial, Helvetica;
+    color: #5f6368;
+}
+
+.right-footer a{
+    padding-left: 27px;
+}
+/**end Footer*/
